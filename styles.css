@@ -84,10 +84,11 @@ textarea{
 button{
     padding: 5px;
     width: 150px;
-    height: 35px;
+    height: 40px;
     border-radius: 10px;
     border: 1.5px solid rgb(175, 175, 175);
     font-weight: bolder;
+    max-width: 130px;
 }
 footer{
     background-color:rgb(227, 227, 227);
@@ -103,15 +104,22 @@ footer{
 #searching{
     float: left;
     width: 40%;
-    margin-top: 1.5%;
-    margin-left: 1.5%;
+    margin-top: 25px;
+    margin-left: 12px;
+
 }
 #p1{
     font-weight: 600;
     text-align: center;
     display: inline-block;
     width: 50%;
-    padding: 15px 0;
+    padding-top: 15px;
+}
+#p2{
+    text-align: center;
+    display: inline-block;
+    padding-top: 0;
+    margin: 0;
 }
 footer p{
     text-align: center;
@@ -234,6 +242,7 @@ footer p{
         border-radius: 10px;
         border: 1.5px solid rgb(175, 175, 175);
         font-weight: bolder;
+        max-width: none;
     }
     footer{
         background-color:rgb(227, 227, 227);
@@ -258,6 +267,12 @@ footer p{
         font-weight: 600;
         padding: 10px 0;
         margin: 0 auto;
+    }
+    #p2{
+        text-align: center;
+        display: block;
+        padding-top: 0;
+        margin: 0;
     }
     footer p{
         text-align: center;
